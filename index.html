@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign up</title>
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">    
 </head>
 <body>
+    <div class="background"></div>
+
     <div class="container">
         <div class="left">
             <h1>Sign up</h1>
@@ -19,7 +22,32 @@
 
         </div>
         <div class="right">
-            DESINE
+            <div class="close">x</div>
+            <form>
+                <fieldset class="form-row">
+                    <label for="username">username</label>
+                    <input type="text" name="username" placeholder="Your username here...">
+                </fieldset>
+                <fieldset class="form-row">
+                    <label for="email">Email</label>
+                    <input type="email" name="email">
+                </fieldset>
+                <fieldset class="form-row">
+                    <label for="pass">Password</label>
+                    <input type="password" name="pass" placeholder="password here...">
+                </fieldset>
+                <fieldset class="form-row">
+                    <label for="repeat-pass">repeat password</label>
+                    <input type="password" name="repeat-pass">
+                </fieldset>
+            <div class="form-row">
+               <div class="btn">
+                   Get started
+               </div>
+                <span>or</span>
+                <a href="#">Sign in</a>
+             </div>
+            </form>
         </div>
 
     </div>
